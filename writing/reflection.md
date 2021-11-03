@@ -1,5 +1,19 @@
 # Text Analysis
 
+TODO: Make sure that your GitHub repository contains the following text files:
+
+- `generated_one.txt`: provided as part of the project
+- `generated_two.txt`: you generate this file by running `textanalysis`
+- `input_one.txt`: provided as part of this project
+- `input_two.txt`: human-written text that you excerpt from a source or write yourself
+
+TODO: You must use a command like `git add` to ensure that two files exist in the repository
+
+TODO: Make sure that your GitHub repository contains the following graphics files:
+
+- `set-visualization-generated.png`: visualization created by `textanalysis` for the file `generated_one.txt`
+- `set-visualization-input.png`: visualization created by `textanalysis` for the file `input_one.txt`
+
 ## Add Your Name Here
 
 ## Program Input and Output
