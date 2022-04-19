@@ -1,7 +1,7 @@
 # Text Analysis
 
-## Assigned: Wednesday, November 3, 2021
-## Due: Wednesday, November 10, 2021
+## Assigned: Tuesday, April 18, 2022
+## Due: Tuesday, April 26, 2022
 
 After cloning this repository to your computer, please take the following steps:
 
@@ -17,6 +17,9 @@ After cloning this repository to your computer, please take the following steps:
   - You should also try to run the program with only the `--help` flag
   - What happens when you run the program but specify an incorrect file?
 - Confirm that the program is producing the expected output
-- Make sure that you understand all of the generated console and graphical output
+- Remember that this program produces a graphical visualization that you will need to load and understand
+- When you commit to your GitHub repository, please use descriptive commit messages
+- Make sure that you try your program on all four inputs described in the `reflection.md` file
+- Make sure that you understand all of the console and graphical output created by `textanalysis`
 - Use a `docker run` command for your operating system to run GatorGrader
 - Provide all of the required responses in the `writing/reflection.md` file
