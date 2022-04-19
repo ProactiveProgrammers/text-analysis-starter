@@ -303,7 +303,7 @@ dev = ["pre-commit", "tox"]
 name = "psutil"
 version = "5.9.0"
 description = "Cross-platform lib for process and system monitoring in Python."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -565,7 +565,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "eebe0e09b074e9cc56cdd364c6b8454420ac984132d9bf22768c3ba2151518c1"
+content-hash = "7705819d4f1c1b89fa5a1ca2182ab0f360e7acf4eeb64cb29564d632d73551d1"
 
 [metadata.files]
 astroid = [
