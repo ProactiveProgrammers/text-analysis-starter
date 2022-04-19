@@ -63,8 +63,8 @@ textanalysis/textanalysis/visualize.py:
 writing/reflection.md:
     ConfirmFileExists
     CountFileWords --count 500
-    CountMarkdownTags --tag "heading" --count 17
-    CountMarkdownTags --tag "code_block" --count 6
+    CountMarkdownTags --tag "heading" --count 16
+    CountMarkdownTags --tag "code_block" --count 5
     MatchFileFragment --fragment "TODO" --count 0 --exact
     MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
