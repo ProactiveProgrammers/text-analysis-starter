@@ -2,10 +2,10 @@
 
 TODO: Make sure that your GitHub repository contains the following text files:
 
-- `generated_one.txt`: provided as part of the project
-- `generated_two.txt`: you generate this file by running `textanalysis`
-- `input_one.txt`: provided as part of this project
-- `input_two.txt`: human-written text that you excerpt from a source or write yourself
+- `generated_one.txt`: generated text from the `aitextgen` program provided as a part of this project
+- `generated_two.txt`: generated text from the `aitextgen` program provided as a part of this project
+- `input_one.txt`: human-written text provided as part of this project
+- `input_two.txt`: human-written text that you excerpt from an external source or write yourself
 
 TODO: You must use a command like `git add` to ensure that two files exist in the repository
 
@@ -51,7 +51,7 @@ TODO: You should download and save a short text segment written by another perso
 
 #### Please explain each line of source code from the `extract` module
 
-TODO: Write at least one paragraph to explain the requested source code
+TODO: Write at least one paragraph to explain the following source code
 
 ```python
 def extract_paragraphs(input_lines: str) -> List[str]:
@@ -84,9 +84,9 @@ TODO: Provide response to this question, demonstrating your knowledge of the use
 
 TODO: Provide a response to this question, explaining these three implementations of the set discrete structure.
 
-### At an intuitive and informal level what is the `aitextgen` package and how does it work?
+### How is the `set` discrete structure similar to and different from the `list` and the `tuple`?
 
-TODO: Provide a response to this question, leveraging the documentation for this tool on sites like GitHub.
+TODO: Provide a response to this question, leveraging your course note and the Proactive Programmers web site.
 
 ### At your own option, do you have any other insights to share about this assignment?
 
