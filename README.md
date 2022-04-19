@@ -7,7 +7,7 @@ After cloning this repository to your computer, please take the following steps:
 
 - Follow the instructions on the Proactive Programmers web site for this project
 - Use the `cd` command to change into the directory for this repository.
-- Change into the program directory by typing `cd datauniquifier`.
+- Change into the program directory by typing `cd textanalysis`.
 - Install the dependencies for the project by typing `poetry install`
 - Run the program with the correct input file by typing:
   - Generate the text: `poetry run textanalysis --output-file text/generated_one.txt --generate`
