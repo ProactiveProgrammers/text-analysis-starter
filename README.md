@@ -13,7 +13,6 @@ After cloning this repository to your computer, please take the following steps:
   - Generate the text: `poetry run textanalysis --output-file text/generated_one.txt --generate`
   - Analyze the text: `poetry run textanalysis --input-file text/input_one.txt --analyze`
   - Please note that the program will not work unless you add the required source code
-  - You should run the program in all possible configurations for `--approach` and `--column`
   - You should also try to run the program with only the `--help` flag
   - What happens when you run the program but specify an incorrect file?
 - Confirm that the program is producing the expected output
