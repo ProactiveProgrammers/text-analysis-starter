@@ -21,9 +21,8 @@ def main(
     input_file: Path = typer.Option(None),
     output_file: Path = typer.Option(None),
     analyze: bool = typer.Option(False, "--analyze"),
-    generate: bool = typer.Option(False, "--generate"),
 ):
-    """Automatically generate text and then analyze the words inside of it with sets."""
+    """Automatically analyze the words inside of text through the use of the set."""
     # the analyze flag was specified
     if analyze:
         # the file was not specified so we cannot continue using program
@@ -78,21 +77,3 @@ def main(
             console.print()
             set_chunks = visualize.visualize_sets(list_of_paragraph_sets)
             console.print(set_chunks)
-    # if the generate flag was specified
-    if generate:
-        if output_file is None:
-            console.print("No output file specified!")
-            raise typer.Abort()
-        # the file was specified and it is not None so we should write to it
-        console.print(":sparkles: Generating text for subsequent analysis!")
-        # create a new text generator
-        text_generator = aitextgen()
-        # generate one segment of text containing multiple paragraphs
-        generated_text = text_generator.generate_one()
-        # display the text in the terminal window
-        console.print()
-        console.print(":paintbrush:  Here is the automatically generated text:")
-        console.print()
-        console.print(generated_text)
-        # save the text to the file system in the specified output file
-        output_file.write_text(generated_text)
