@@ -12,6 +12,11 @@ def visualize_sets(sets: List[Set[str]]):
     # create a matplotlib figure space
     plot.figure(figsize=(16, 8))
     # compute all of the subsets and then visualize them
+    # NOTE: note that there are many different parameters that
+    # you can pass to the supervenn function; please explore those
+    # options through the GitHub repository for the project. Note
+    # that different options may make it easier/harder for you
+    # to understand the overlap between the sets in the file.
     supervenn_plot = supervenn(
         sets, side_plots=True, widths_minmax_ratio=1, sets_ordering="minimize gaps"
     )
