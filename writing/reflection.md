@@ -1,5 +1,11 @@
 # Text Analysis
 
+TODO: Make sure that you delete all of the TODO markers in this file and either
+rewrite or delete all of the prompts. Ultimately, this file should contained
+polished writing that is free of mistakes in grammar, spelling, or Markdown
+syntax. It should also be a polished article that is suitable for publication on
+your professional web site.
+
 TODO: Make sure that your GitHub repository contains the following text files:
 
 - `generated_one.txt`: generated text from the `aitextgen` program provided as a part of this project
@@ -7,12 +13,13 @@ TODO: Make sure that your GitHub repository contains the following text files:
 - `input_one.txt`: human-written text provided as part of this project
 - `input_two.txt`: human-written text that you excerpt from an external source or write yourself
 
-TODO: You must use a command like `git add` to ensure that two files exist in the repository
 
 TODO: Make sure that your GitHub repository contains the following graphics files:
 
 - `set-visualization-generated.png`: visualization created by `textanalysis` for the file `generated_one.txt`
 - `set-visualization-input.png`: visualization created by `textanalysis` for the file `input_one.txt`
+
+TODO: You must use a command like `git add` to ensure that certain files exist in the repository
 
 ## Add Your Name Here
 
@@ -36,14 +43,15 @@ TODO: Use a fenced code block to provide the output for this command.
 
 `poetry run textanalysis --input-file text/generated_one.txt --analyze`
 
-### What is inside of the `generated_two.txt` file that your tool created?
+### What is inside of the `generated_two.txt` file that `aitextgen` created?
 
 TODO: Use a fenced code block to provide the contents of the file.
 
-### What is inside of the `input_two.txt` file that you downloaded and saved?
+### What is inside of the `input_two.txt` file that you downloaded/wrote and saved?
 
 TODO: Use a fenced code block to provide the contents of the file.
-TODO: You should download and save a short text segment written by another person
+TODO: You should download and save a short text segment written by another person.
+TODO: Alternatively, you can write your own text that you want to analyze.
 
 ## Source Code
 
@@ -65,6 +73,11 @@ def extract_paragraphs(input_lines: str) -> List[str]:
 ```
 
 ## Analyzing the Text
+
+NOTE: The analysis described in this reflection file only requires you to study
+the output of `textanalysis` when run with the files called `input_one.txt` and
+`input_two.txt`. With that said, you should make sure that the program also
+works correctly when it is run with other input files!
 
 ### According to the output of your program, what words does `input_one.txt` have in common across all paragraphs? How did you know?
 
