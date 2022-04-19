@@ -71,7 +71,7 @@ def main(
             console.print()
             # visualize the sets and then show all of the computed subsets
             console.print(
-                ":paintbrush:  Saving the visualization in graphics/set-visualization.png"
+                ":paintbrush: Saving the visualization in graphics/set-visualization.png"
             )
             console.print()
             console.print(":microscope: Get ready, here is the analysis of the sets!")
