@@ -19,17 +19,11 @@ TODO: Make sure that your GitHub repository contains the following graphics file
 - `set-visualization-generated.png`: visualization created by `textanalysis` for the file `generated_one.txt`
 - `set-visualization-input.png`: visualization created by `textanalysis` for the file `input_one.txt`
 
-TODO: You must use a command like `git add` to ensure that certain files exist in the repository
+TODO: You must use a command like `git add` to ensure that certain files exist in the repository.
 
 ## Add Your Name Here
 
 ## Program Input and Output
-
-### What is the output from running the following command?
-
-TODO: Use a fenced code block to provide the output for this command.
-
-`poetry run textanalysis --output-file text/generated_two.txt --generate`
 
 ### What is the output from running the following command?
 
