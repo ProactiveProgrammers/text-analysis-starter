@@ -10,7 +10,7 @@ After cloning this repository to your computer, please take the following steps:
 - Change into the program directory by typing `cd datauniquifier`.
 - Install the dependencies for the project by typing `poetry install`
 - Run the program with the correct input file by typing:
-  - Generate the text: `poetry run textanalysis --output-file text/generated_two.txt --generate`
+  - Generate the text: `poetry run textanalysis --output-file text/generated_one.txt --generate`
   - Analyze the text: `poetry run textanalysis --input-file text/input_one.txt --analyze`
   - Please note that the program will not work unless you add the required source code
   - You should run the program in all possible configurations for `--approach` and `--column`
