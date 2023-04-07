@@ -1,0 +1,27 @@
+With TorchScript, PyTorch provides ease-of-use and flexibility in eager mode,
+while seamlessly transitioning to graph mode for speed, optimization, and
+functionality in C++ runtime environments.
+
+TorchServe is an easy to use tool for deploying PyTorch models at scale. It is
+cloud and environment agnostic and supports features such as multi-model
+serving, logging, metrics and the creation of RESTful endpoints for application
+integration.
+
+PyTorch supports an end-to-end workflow from Python to deployment on iOS and
+Android. It extends the PyTorch API to cover common preprocessing and
+integration tasks needed for incorporating ML in mobile applications.
+
+An active community of researchers and developers have built a rich ecosystem of
+tools and libraries for extending PyTorch and supporting development in areas
+from computer vision to reinforcement learning.
+
+Export models in the standard ONNX (Open Neural Network Exchange) format for
+direct access to ONNX-compatible platforms, runtimes, visualizers, and more.
+
+The C++ frontend is a pure C++ interface to PyTorch that follows the design and
+architecture of the established Python frontend. It is intended to enable
+research in high performance, low latency and bare metal C++ applications.
+
+PyTorch is well supported on major cloud platforms, providing frictionless
+development and easy scaling through prebuilt images, large scale training on
+GPUs, ability to run models in a production scale environment, and more.
