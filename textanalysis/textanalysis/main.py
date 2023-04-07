@@ -20,7 +20,6 @@ console = Console()
 @cli.command()
 def main(
     input_file: Path = typer.Option(None),
-    output_file: Path = typer.Option(None),
     analyze: bool = typer.Option(False, "--analyze"),
 ):
     """Automatically analyze the words inside of text through the use of the set."""
