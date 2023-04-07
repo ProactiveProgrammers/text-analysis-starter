@@ -8,11 +8,10 @@ your professional web site.
 
 TODO: Make sure that your GitHub repository contains the following text files:
 
-- `generated_one.txt`: generated text from the `aitextgen` program provided as a part of this project
-- `generated_two.txt`: generated text from the `aitextgen` program provided as a part of this project
+- `generated_one.txt`: automatically generated text file
+- `generated_two.txt`: automatically generated text file
 - `input_one.txt`: human-written text provided as part of this project
-- `input_two.txt`: human-written text that you excerpt from an external source or write yourself
-
+- `input_two.txt`: human-written text  provided as part of this project
 
 TODO: Make sure that your GitHub repository contains the following graphics files:
 
