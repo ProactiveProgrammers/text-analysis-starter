@@ -48,7 +48,7 @@ TODO: Alternatively, you can write your own text that you want to analyze.
 
 ## Source Code
 
-### Describe in detail how your provided source code works
+### Describe in detail how the source code in the `textanalysis` works
 
 #### Please explain each line of source code from the `extract` module
 
