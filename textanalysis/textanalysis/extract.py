@@ -1,4 +1,4 @@
-"""Extract the paragraphs and other textual content from the paragraphs of text."""
+# TODO: Add a docstring that fully summarizes the functions in this module
 
 # TODO: Add the required imports at the top of the file
 
