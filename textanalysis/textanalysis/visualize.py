@@ -31,5 +31,5 @@ def visualize_sets(sets: List[Set[str]]):
     # adding this feature to the program will make it easier for
     # you to complete the analysis of the text files using sets
     plot.savefig("graphics/set-visualization.png")
-    # return the dictionary of chunks for visualization purposes
+    # return the dictionary of chunks for interpretation purposes
     return supervenn_plot.chunks
