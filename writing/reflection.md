@@ -36,11 +36,11 @@ TODO: Use a fenced code block to provide the output for this command.
 
 `poetry run textanalysis --input-file text/generated_one.txt --analyze`
 
-### What is inside of the `generated_two.txt` file that `aitextgen` created?
+### What is inside of the `generated_two.txt` file in the GitHub repository?
 
 TODO: Use a fenced code block to provide the contents of the file.
 
-### What is inside of the `input_two.txt` file that you downloaded/wrote and saved?
+### What is inside of the `input_two.txt` file in the GitHub repository?
 
 TODO: Use a fenced code block to provide the contents of the file.
 TODO: You should download and save a short text segment written by another person.
@@ -65,12 +65,18 @@ def extract_paragraphs(input_lines: str) -> List[str]:
     return paragraphs
 ```
 
+#### Pick one snippet of Python source code that you wrote in the `extract.py` module and explain how it works
+
+TODO: Write at least one paragraph to explain the source code code that you selected
+
 ## Analyzing the Text
 
 NOTE: The analysis described in this reflection file only requires you to study
 the output of `textanalysis` when run with the files called `input_one.txt` and
 `input_two.txt`. With that said, you should make sure that the program also
-works correctly when it is run with other input files!
+works correctly when it is run with other input files! Please note that the
+output of the `textanalysis` includes both the words that you see in the
+terminal window and the `png` files stored in the `graphics/` directory.
 
 ### According to the output of your program, what words does `input_one.txt` have in common across all paragraphs? How did you know?
 
@@ -89,10 +95,12 @@ TODO: Provide response to this question, demonstrating your knowledge of the use
 ### What are the similarities and differences between `set`, `FrozenSet`, and `FiniteSet`?
 
 TODO: Provide a response to this question, explaining these three implementations of the set discrete structure.
+TODO: Please refer to your notes, the course text book, and online resources to answer this question.
+TODO: If you refer to online resources, please make sure to cite them in your response.
 
-### How is the `set` discrete structure similar to and different from the `list` and the `tuple`?
+### How is the `set` discrete structure similar to and different from the `list` and the `tuple` discrete structures?
 
-TODO: Provide a response to this question, leveraging your course note and the Proactive Programmers web site.
+TODO: Provide a response to this question, leveraging your course notes and the Proactive Programmers web site.
 
 ### At your own option, do you have any other insights to share about this assignment?
 
